@@ -1,0 +1,8 @@
+services:
+  webapp-frontend:
+    image: "zcohn93/webapp-frontend:0.1"
+    container_name: webapp-frontend
+    ports:
+      - 5173:5173
+    tty: true
+    stdin_open: true
